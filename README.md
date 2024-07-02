@@ -21,8 +21,7 @@ Here I'm using the GPT-2 transformer. User can check if the text contains AI con
 
 **Other model training on the AI_Human dataset involves the following steps:**
 1) NLP for data preprocessing, 
-2) EDA, 
-3) Created a pipeline which includes CountVectorizer, TfidfTransformer, and MultinomialNB model.
+2) Created a pipeline which includes CountVectorizer, TfidfTransformer, and MultinomialNB model.
 The accuracy achieved is 95%.
 
 ![image](https://github.com/neha13rana/AIcontentdetector/assets/121093178/218fd212-0e51-49bd-866e-dee684ba5448)
