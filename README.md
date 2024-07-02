@@ -7,6 +7,18 @@ In this project, I have developed an AI content detector using perplexity and bu
 **Burstiness:** In a unigram model, the distribution of a word is evenly spread out across events (words) and could be represented as a repeated Bernoulli trial with probability P(w). This model works for most functional words, but content words have different distributions, for which a bigram model is used.
 Here I'm using the GPT-2 transformer. User can check if the text contains AI content and replace it with the provided review when analyzing the text to reduce the chances of AI content.
 
+ 
+**Used technology :**
+1) Streanlit
+2) Streamlit.io for deployment
+3) Machine Learning
+4) NLP (standard measures of perplexity and burstiness and preprocessing of the model)
+5) Data visualization
+6) Pytorch
+7) Matplotlib
+
+<hr>
+
 **Other model training on the AI_Human dataset involves the following steps:**
 1) NLP for data preprocessing, 
 2) EDA, 
