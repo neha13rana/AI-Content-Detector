@@ -13,6 +13,9 @@ Here I'm using the GPT-2 transformer. User can check if the text contains AI con
 3) Created a pipeline which includes CountVectorizer, TfidfTransformer, and MultinomialNB model.
 The accuracy achieved is 95%.
 
+![image](https://github.com/neha13rana/AIcontentdetector/assets/121093178/218fd212-0e51-49bd-866e-dee684ba5448)
+
+
 <hr>
 
 **1) paste the text from the public pdf.**
@@ -29,6 +32,10 @@ Result : Ai content detected in the text. review shows that in top 10 word you h
  **Quilbot result :**
 
 ![WhatsApp Image 2024-06-29 at 13 57 29_ce29cda6](https://github.com/neha13rana/AIcontentdetector/assets/121093178/2617892e-7b97-4c26-9d36-327f2d642402)
+
+**3) download the review :**
+
+![image](https://github.com/neha13rana/AIcontentdetector/assets/121093178/2e0da58d-9f5e-41e6-ae75-e98d4256b04b)
 
 
 <hr> 
