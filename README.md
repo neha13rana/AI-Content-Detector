@@ -3,13 +3,14 @@
 In this project, I have developed an AI content detector using perplexity and burstiness concepts in NLP.
 
 **Perplexity:** Perplexity measures how well a probability model predicts a sample, particularly in Natural Language Processing (NLP). A language model, which generates and evaluates sentences, should assign higher probabilities to well-written texts. Perplexity thus captures a model's uncertainty in predicting text. For example, given a trained language model that predicts words from a limited set, the probability of the sentence "a red fox." is calculated by multiplying the probabilities of each word conditional on its predecessors: P("a red fox.") = P("a") * P("red" | "a") * P("fox" | "a red") * P("." | "a red fox").
-Burstiness: In a unigram model, the distribution of a word is evenly spread out across events (words) and could be represented as a repeated Bernoulli trial with probability P(w). This model works for most functional words, but content words have different distributions, for which a bigram model is used.
+
+**Burstiness:** In a unigram model, the distribution of a word is evenly spread out across events (words) and could be represented as a repeated Bernoulli trial with probability P(w). This model works for most functional words, but content words have different distributions, for which a bigram model is used.
 Here I'm using the GPT-2 transformer. User can check if the text contains AI content and replace it with the provided review when analyzing the text to reduce the chances of AI content.
-**
-Other model training on the AI_Human dataset involves the following steps:**
-NLP for data preprocessing, 
-EDA, 
-and a pipeline including CountVectorizer, TfidfTransformer, and MultinomialNB model.
+
+**Other model training on the AI_Human dataset involves the following steps:**
+1) NLP for data preprocessing, 
+2) EDA, 
+3) Created a pipeline which includes CountVectorizer, TfidfTransformer, and MultinomialNB model.
 The accuracy achieved is 95%.
 
 <hr>
