@@ -1,7 +1,5 @@
 # **AIcontentdetector** (https://aicontentdetector.streamlit.app/)
 
-<hr>
-
 In this project, I have developed an AI content detector using perplexity and burstiness concepts in NLP.
 
 **Perplexity:** Perplexity measures how well a probability model predicts a sample, particularly in Natural Language Processing (NLP). A language model, which generates and evaluates sentences, should assign higher probabilities to well-written texts. Perplexity thus captures a model's uncertainty in predicting text. For example, given a trained language model that predicts words from a limited set, the probability of the sentence "a red fox." is calculated by multiplying the probabilities of each word conditional on its predecessors: P("a red fox.") = P("a") * P("red" | "a") * P("fox" | "a red") * P("." | "a red fox").
@@ -29,6 +27,8 @@ Result : Ai content not detected in the text.
 
 Result : Ai content detected in the text. review shows that in top 10 word you have a ai content change that content to get the less content of AI.
 ![image](https://github.com/neha13rana/AIcontentdetector/assets/121093178/30e8694c-e73c-4c78-b903-0d308a96a40a)
+
+<hr> 
 
 **Steps :**
 
