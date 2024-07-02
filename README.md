@@ -9,7 +9,7 @@ Here I'm using the GPT-2 transformer. User can check if the text contains AI con
 
  
 **Used technology :**
-1) Streanlit
+1) Streamlit
 2) Streamlit.io for deployment
 3) Machine Learning
 4) NLP (standard measures of perplexity and burstiness and preprocessing of the model)
