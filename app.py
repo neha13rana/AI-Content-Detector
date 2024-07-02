@@ -12,6 +12,7 @@ import string
 
 import nltk
 nltk.download('punkt')
+nltk.download('stopwords')
 # Initialize tokenizer and model
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
 model = GPT2LMHeadModel.from_pretrained('gpt2')
