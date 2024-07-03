@@ -1,4 +1,4 @@
-# **AIcontentdetector** (https://aicontentdetector.streamlit.app/)
+# **AI Content Detector** (https://aicontentdetector.streamlit.app/)
 
 In this project, I have developed an AI content detector using perplexity and burstiness concepts in NLP.
 
